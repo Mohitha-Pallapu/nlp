@@ -45,17 +45,3 @@ print("Topic Boundary\n")   # First sentence always boundary
 for i in range(len(predictions)):
     print(test_sentences[i+1])
     print("Topic Boundary\n" if predictions[i] == 1 else "Same Topic\n")
-#   output:
-# Topic Boundary Detection:
-
-# Deep learning is a subset of ML.
-# Topic Boundary
-
-# It uses neural networks.
-# Same Topic
-
-# Chennai is another big city in India.
-# Topic Boundary
-
-# It has beautiful beaches.
-# Same Topic
