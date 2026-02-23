@@ -41,8 +41,3 @@ for p, label in zip(positions, pred):
 
 if start < len(test):
     print(test[start:].strip())
-# #output: Detected Sentences:
-
-# Dr. Rao lives in Mumbai.
-# He works at TCS.
-# He is smart.
