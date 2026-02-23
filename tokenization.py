@@ -9,3 +9,5 @@ for i in range(0,len(text)):
     elif i==len(text)-1:
          tokens.append(text[x:i+1])
 print(tokens)
+# output: enter text: The cat sat on the mat
+# ['The', 'cat', 'sat', 'on', 'the', 'mat']
