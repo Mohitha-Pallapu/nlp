@@ -8,4 +8,3 @@ def porter(word):
     return word
 stems =[porter(w) for w in words]
 print(stems)
-#output: ['swimm', 'play', 'cat', 'happi']
